@@ -6,7 +6,7 @@ def find_max_value(array)
   index_l = nil
   i = 0
   while i < array.length do
-    index_l = i if array[i] < array[index_l]
+    index_l = i if array[i] > array[index_l]
   end
   array[index_l]
 end
