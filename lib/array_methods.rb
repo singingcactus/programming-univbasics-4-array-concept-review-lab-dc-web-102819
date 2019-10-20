@@ -4,6 +4,7 @@ end
 
 def find_max_value(array)
   i = 0
+  index_l = 0
   while i < array.length do
     index_l = i if array[i] > array[index_l]
     i += 1
