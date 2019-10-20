@@ -3,7 +3,6 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  index_l = nil
   i = 0
   while i < array.length do
     index_l = i if array[i] > array[index_l]
